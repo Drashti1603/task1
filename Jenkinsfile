@@ -10,7 +10,7 @@ pipeline {
             steps {
                 // Use the 'git' step to checkout the repository
                 script {
-                    git branch: 'master', credentialsId: env.GIT_CREDENTIALS_ID, url: 'https://github.com/Drashti1603/Scripts-eg-.git'
+                    git branch: 'master', credentialsId: env.GIT_CREDENTIALS_ID, url: 'https://github.com/Drashti1603/task'
                 }
             }
         }
