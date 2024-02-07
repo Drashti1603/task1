@@ -18,7 +18,7 @@ pipeline {
         stage('Execute Python Script') {
             steps {
                 // Execute the Python script
-                sh 'python get_count.py' // Assuming 'python' command is available in the environment
+                python get_count.py // Assuming 'python' command is available in the environment
             }
         }
     }
